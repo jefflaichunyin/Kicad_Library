@@ -1,0 +1,230 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:R R?
+U 1 1 5FCED616
+P 4900 3900
+AR Path="/5FCED616" Ref="R?"  Part="1" 
+AR Path="/5FCEB368/5FCED616" Ref="R20"  Part="1" 
+F 0 "R20" V 4800 3900 50  0000 C CNN
+F 1 "1K" V 4900 3900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4830 3900 50  0001 C CNN
+F 3 "~" H 4900 3900 50  0001 C CNN
+	1    4900 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 3950 5050 3900
+Connection ~ 5050 3900
+Wire Wire Line
+	5050 3900 5050 3850
+$Comp
+L power:GND #PWR?
+U 1 1 5FCED61F
+P 5450 4450
+AR Path="/5FCED61F" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FCED61F" Ref="#PWR044"  Part="1" 
+F 0 "#PWR044" H 5450 4200 50  0001 C CNN
+F 1 "GND" H 5450 4300 50  0000 C CNN
+F 2 "" H 5450 4450 50  0000 C CNN
+F 3 "" H 5450 4450 50  0000 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FCED625
+P 3850 3850
+AR Path="/5FCED625" Ref="C?"  Part="1" 
+AR Path="/5FCEB368/5FCED625" Ref="C21"  Part="1" 
+F 0 "C21" H 3965 3896 50  0000 L CNN
+F 1 "0.1u" H 3965 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3888 3700 50  0001 C CNN
+F 3 "~" H 3850 3850 50  0001 C CNN
+	1    3850 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCED62B
+P 3850 4000
+AR Path="/5FCED62B" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FCED62B" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 3850 3750 50  0001 C CNN
+F 1 "GND" H 3850 3850 50  0000 C CNN
+F 2 "" H 3850 4000 50  0000 C CNN
+F 3 "" H 3850 4000 50  0000 C CNN
+	1    3850 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCED632
+P 5450 3350
+AR Path="/5FCED632" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FCED632" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 5450 3200 50  0001 C CNN
+F 1 "+5V" H 5450 3500 50  0000 C CNN
+F 2 "" H 5450 3350 50  0000 C CNN
+F 3 "" H 5450 3350 50  0000 C CNN
+	1    5450 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCED638
+P 3850 3700
+AR Path="/5FCED638" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FCED638" Ref="#PWR041"  Part="1" 
+F 0 "#PWR041" H 3850 3550 50  0001 C CNN
+F 1 "+5V" H 3850 3850 50  0000 C CNN
+F 2 "" H 3850 3700 50  0000 C CNN
+F 3 "" H 3850 3700 50  0000 C CNN
+	1    3850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Interface_UART:MAX485E U?
+U 1 1 5FCED640
+P 5450 3850
+AR Path="/5FCED640" Ref="U?"  Part="1" 
+AR Path="/5FCEB368/5FCED640" Ref="U5"  Part="1" 
+F 0 "U5" H 5300 4300 50  0000 C CNN
+F 1 "MAX485E" H 5650 4300 50  0000 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 5450 3150 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 5450 3900 50  0001 C CNN
+	1    5450 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Connectors:CONN_04JST-PTH J?
+U 1 1 5FCED647
+P 6650 4100
+AR Path="/5FCED647" Ref="J?"  Part="1" 
+AR Path="/5FCEB368/5FCED647" Ref="J6"  Part="1" 
+F 0 "J6" H 6608 4520 45  0000 C CNN
+F 1 "CONN_04JST-PTH" H 6608 4520 45  0001 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 6650 4600 20  0001 C CNN
+F 3 "" H 6650 4100 50  0001 C CNN
+F 4 "WIRE-13531" H 6608 4531 60  0001 C CNN "Field4"
+	1    6650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCED64D
+P 6750 3800
+AR Path="/5FCED64D" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FCED64D" Ref="#PWR045"  Part="1" 
+F 0 "#PWR045" H 6750 3650 50  0001 C CNN
+F 1 "+5V" H 6750 3950 50  0000 C CNN
+F 2 "" H 6750 3800 50  0000 C CNN
+F 3 "" H 6750 3800 50  0000 C CNN
+	1    6750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FCED653
+P 6750 4100
+AR Path="/5FCED653" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FCED653" Ref="#PWR046"  Part="1" 
+F 0 "#PWR046" H 6750 3850 50  0001 C CNN
+F 1 "GND" H 6750 3950 50  0000 C CNN
+F 2 "" H 6750 4100 50  0000 C CNN
+F 3 "" H 6750 4100 50  0000 C CNN
+	1    6750 4100
+	1    0    0    -1  
+$EndComp
+Text Label 5850 4050 0    50   ~ 0
+RS485A
+Text Label 5850 3750 0    50   ~ 0
+RS485B
+Text Label 6750 3900 0    50   ~ 0
+RS485A
+Text Label 6750 4000 0    50   ~ 0
+RS485B
+$Comp
+L Device:R R?
+U 1 1 5FCED65D
+P 6250 3900
+AR Path="/5FCED65D" Ref="R?"  Part="1" 
+AR Path="/5FCEB368/5FCED65D" Ref="R21"  Part="1" 
+F 0 "R21" H 6350 3850 50  0000 C CNN
+F 1 "120R" H 6400 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6180 3900 50  0001 C CNN
+F 3 "~" H 6250 3900 50  0001 C CNN
+	1    6250 3900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5850 4050 6250 4050
+Wire Wire Line
+	5850 3750 6250 3750
+Text HLabel 5050 4050 0    50   Input ~ 0
+RS485_TX
+Text HLabel 5050 3750 0    50   Output ~ 0
+RS485_RX
+Text HLabel 4750 3900 0    50   Input ~ 0
+RS485_TXEN
+$Comp
+L Device:C C?
+U 1 1 5FD20920
+P 7200 3950
+AR Path="/5FD20920" Ref="C?"  Part="1" 
+AR Path="/5FCEB368/5FD20920" Ref="C22"  Part="1" 
+F 0 "C22" H 7315 3996 50  0000 L CNN
+F 1 "10u" H 7315 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7238 3800 50  0001 C CNN
+F 3 "~" H 7200 3950 50  0001 C CNN
+	1    7200 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FD20926
+P 7200 4100
+AR Path="/5FD20926" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FD20926" Ref="#PWR048"  Part="1" 
+F 0 "#PWR048" H 7200 3850 50  0001 C CNN
+F 1 "GND" H 7200 3950 50  0000 C CNN
+F 2 "" H 7200 4100 50  0000 C CNN
+F 3 "" H 7200 4100 50  0000 C CNN
+	1    7200 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FD2092C
+P 7200 3800
+AR Path="/5FD2092C" Ref="#PWR?"  Part="1" 
+AR Path="/5FCEB368/5FD2092C" Ref="#PWR047"  Part="1" 
+F 0 "#PWR047" H 7200 3650 50  0001 C CNN
+F 1 "+5V" H 7200 3950 50  0000 C CNN
+F 2 "" H 7200 3800 50  0000 C CNN
+F 3 "" H 7200 3800 50  0000 C CNN
+	1    7200 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3800 7200 3800
+Connection ~ 6750 3800
+Connection ~ 7200 3800
+Wire Wire Line
+	6750 4100 7200 4100
+Connection ~ 6750 4100
+Connection ~ 7200 4100
+$EndSCHEMATC

@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP P82B715
+D I2C Extender
+F https://www.ti.com/lit/ds/symlink/p82b715.pdf
+$ENDCMP
+#
+#End Doc Library
