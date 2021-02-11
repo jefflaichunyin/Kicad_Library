@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 11
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -44,7 +44,7 @@ SCL
 Text HLabel 5750 3800 0    50   BiDi ~ 0
 SDA
 $Comp
-L AbsoluteEncoderBoard:I2C_OLED H1
+L Jeff_Symbols:I2C_OLED H1
 U 1 1 6003D1D3
 P 5750 3450
 F 0 "H1" H 6178 3201 50  0000 L CNN

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 11
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -195,7 +195,7 @@ F 3 "~" H 6900 4050 50  0001 C CNN
 $EndComp
 Connection ~ 6900 4050
 $Comp
-L AbsoluteEncoderBoard-rescue:TPS54202-Jeff_Symbols U11
+L Jeff_Symbols:TPS54202 U11
 U 1 1 5FCC8F36
 P 5050 3800
 AR Path="/5FCC8F36" Ref="U11"  Part="1" 
@@ -541,19 +541,19 @@ F 3 "~" H 3200 3800 50  0001 C CNN
 $EndComp
 Connection ~ 3200 3800
 $Comp
-L SparkFun-Connectors:BATTERY_CONN_DEANS J?
+L Connector:Conn_01x02_Male J10
 U 1 1 5FF24B54
-P 5450 2550
-AR Path="/5FF24B54" Ref="J?"  Part="1" 
+P 5350 2450
+AR Path="/5FF24B54" Ref="J10"  Part="1" 
 AR Path="/5FD3F164/5FF24B54" Ref="J4"  Part="1" 
 AR Path="/5FF65458/5FF24B54" Ref="J6"  Part="1" 
 AR Path="/5FE6C200/5FF24B54" Ref="J10"  Part="1" 
-F 0 "J10" H 5408 2770 45  0000 C CNN
-F 1 "BATTERY_CONN_DEANS" H 5408 2876 45  0001 C CNN
-F 2 "Jeff_Footprints:DEANS_M" H 5450 2850 20  0001 C CNN
-F 3 "" H 5450 2550 50  0001 C CNN
-F 4 "PRT-11864" H 5408 2781 60  0001 C CNN "Field4"
-	1    5450 2550
+F 0 "J10" H 5308 2670 45  0000 C CNN
+F 1 "BATTERY_CONN_DEANS" H 5308 2776 45  0001 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43045-0212_2x01_P3.00mm_Vertical" H 5350 2750 20  0001 C CNN
+F 3 "" H 5350 2450 50  0001 C CNN
+F 4 "PRT-11864" H 5308 2681 60  0001 C CNN "Field4"
+	1    5350 2450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

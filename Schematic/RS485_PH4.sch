@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -110,17 +110,17 @@ F 3 "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf" H 5450 3
 	1    0    0    -1  
 $EndComp
 $Comp
-L SparkFun-Connectors:CONN_04JST-PTH J?
+L Connector:Conn_01x04_Male J6
 U 1 1 5FCED647
-P 6650 4100
-AR Path="/5FCED647" Ref="J?"  Part="1" 
+P 6550 3900
+AR Path="/5FCED647" Ref="J6"  Part="1" 
 AR Path="/5FCEB368/5FCED647" Ref="J6"  Part="1" 
-F 0 "J6" H 6608 4520 45  0000 C CNN
-F 1 "CONN_04JST-PTH" H 6608 4520 45  0001 C CNN
-F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 6650 4600 20  0001 C CNN
-F 3 "" H 6650 4100 50  0001 C CNN
-F 4 "WIRE-13531" H 6608 4531 60  0001 C CNN "Field4"
-	1    6650 4100
+F 0 "J6" H 6550 4100 45  0000 C CNN
+F 1 "CONN_04JST-PTH" H 6508 4320 45  0001 C CNN
+F 2 "Connector_JST:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" H 6550 4400 20  0001 C CNN
+F 3 "" H 6550 3900 50  0001 C CNN
+F 4 "WIRE-13531" H 6508 4331 60  0001 C CNN "Field4"
+	1    6550 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -221,10 +221,10 @@ F 3 "" H 7200 3800 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	6750 3800 7200 3800
-Connection ~ 6750 3800
 Connection ~ 7200 3800
 Wire Wire Line
 	6750 4100 7200 4100
-Connection ~ 6750 4100
 Connection ~ 7200 4100
+Connection ~ 6750 3800
+Connection ~ 6750 4100
 $EndSCHEMATC
