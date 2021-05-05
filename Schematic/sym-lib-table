@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Jeff_Symbols)(type Legacy)(uri /home/jeff/Documents/Kicad/Lib/Kicad_Library/Symbols/Jeff_Symbols.lib)(options "")(descr ""))
+  (lib (name dk_TVS-Diodes)(type Legacy)(uri /home/jeff/Documents/Kicad/Lib/digikey-kicad-library/digikey-symbols/dk_TVS-Diodes.lib)(options "")(descr ""))
+)
